@@ -16,3 +16,4 @@
 - 設定フォームでは最大連鎖回数、アイテムの静的ドロップ、アイテムの自動回収を設定できます。
 
 ## ダウンロード
+- [ダウンロード](https://github.com/Raoootokun/IkkatuHakai/releases/tag/v1.0.0)
