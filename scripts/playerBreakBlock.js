@@ -98,6 +98,7 @@ function mineAll(player, block, blockId, itemStack) {
         fortuneLevel: fortuneLevel,
         itemStaticDrop: player.getDynamicProperty("itemStaticDrop"),
         itemAuteCollect: player.getDynamicProperty("itemAuteCollect"),
+        dimension: player.dimension,
     };
 
     system.runJob(getBlocks(block, data, itemDrop));
@@ -150,8 +151,21 @@ function mineAll(player, block, blockId, itemStack) {
    
         dropItemStack.amount = dropCount;
 
+        if(info.spawnXpCount){
+            if(!data.hasSilkTouch){
+                const spawnXpCount = dropCount = Math.floor(Math.random() * (info.spawnXpCount[1] - info.spawnXpCount[0]) ) + info.spawnXpCount[0];
+                if(data.itemAuteCollect){
+                    player.addExperience(spawnXpCount);
+                }else{
+                    for(let i=0; i<spawnXpCount; i++){
+                        data.dimension.spawnEntity("xp_orb", location);
+                    };
+                }
+            };
+        };
+
         if(data.itemAuteCollect){
-            const result = container.addItem(data.dropItemStack);
+            const result = container.addItem(dropItemStack);
             if(!result)return;
         };
 
