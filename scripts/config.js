@@ -67,6 +67,7 @@ export const config = {
             minDropCount: 1,
             maxDropCount: 1,
             otherBlockIds: [ "minecraft:deepslate_diamond_ore" ],
+            spawnXpCount: [ 3, 7 ]
         },
         {
             blockId: "minecraft:lapis_ore",
@@ -74,6 +75,7 @@ export const config = {
             minDropCount: 4,
             maxDropCount: 9,
             otherBlockIds: [ "minecraft:deepslate_lapis_ore" ],
+            spawnXpCount: [ 2, 5 ]
         },
         {
             blockId: "minecraft:redstone_ore",
@@ -81,6 +83,7 @@ export const config = {
             minDropCount: 4,
             maxDropCount: 5,
             otherBlockIds: [ "minecraft:deepslate_redstone_ore", "minecraft:lit_redstone_ore", "minecraft:lit_deepslate_redstone_ore" ],
+            spawnXpCount: [ 1, 5 ]
         },
         {
             blockId: "minecraft:lit_redstone_ore",
@@ -88,6 +91,7 @@ export const config = {
             minDropCount: 4,
             maxDropCount: 5,
             otherBlockIds: [ "minecraft:deepslate_redstone_ore", "minecraft:redstone_ore", "minecraft:lit_deepslate_redstone_ore" ],
+            spawnXpCount: [ 1, 5 ]
         },
         {
             blockId: "minecraft:coal_ore",
@@ -95,6 +99,7 @@ export const config = {
             minDropCount: 1,
             maxDropCount: 1,
             otherBlockIds: [ "minecraft:deepslate_coal_ore" ],
+            spawnXpCount: [ 0, 2 ]
         },
         {
             blockId: "minecraft:emerald_ore",
@@ -102,6 +107,7 @@ export const config = {
             minDropCount: 1,
             maxDropCount: 1,
             otherBlockIds: [ "minecraft:deepslate_emerald_ore" ],
+            spawnXpCount: [ 3, 7 ]
         },
         {
             blockId: "minecraft:copper_ore",
@@ -132,6 +138,7 @@ export const config = {
             minDropCount: 1,
             maxDropCount: 1,
             otherBlockIds: [ "minecraft:diamond_ore" ],
+            spawnXpCount: [ 3, 7 ]
         },
         {
             blockId: "minecraft:deepslate_lapis_ore",
@@ -139,6 +146,7 @@ export const config = {
             minDropCount: 4,
             maxDropCount: 9,
             otherBlockIds: [ "minecraft:lapis_ore" ],
+            spawnXpCount: [ 2, 5 ]
         },
         {
             blockId: "minecraft:deepslate_redstone_ore",
@@ -146,6 +154,7 @@ export const config = {
             minDropCount: 4,
             maxDropCount: 5,
             otherBlockIds: [ "minecraft:redstone_ore", "minecraft:lit_redstone_ore", "minecraft:lit_deepslate_redstone_ore" ],
+            spawnXpCount: [ 1, 5 ]
         },
         {
             blockId: "minecraft:lit_deepslate_redstone_ore",
@@ -153,6 +162,7 @@ export const config = {
             minDropCount: 4,
             maxDropCount: 5,
             otherBlockIds: [ "minecraft:deepslate_redstone_ore", "minecraft:redstone_ore", "minecraft:lit_redstone_ore" ],
+            spawnXpCount: [ 1, 5 ]
         },
         {
             blockId: "minecraft:deepslate_coal_ore",
@@ -160,6 +170,7 @@ export const config = {
             minDropCount: 1,
             maxDropCount: 1,
             otherBlockIds: [ "minecraft:coal_ore" ],
+            spawnXpCount: [ 0, 2 ]
         },
         {
             blockId: "minecraft:deepslate_emerald_ore",
@@ -167,6 +178,7 @@ export const config = {
             minDropCount: 1,
             maxDropCount: 1,
             otherBlockIds: [ "minecraft:emerald_ore" ],
+            spawnXpCount: [ 3, 7 ]
         },
         {
             blockId: "minecraft:deepslate_copper_ore",
@@ -183,6 +195,7 @@ export const config = {
             minDropCount: 1,
             maxDropCount: 1,
             otherBlockIds: [],
+            spawnXpCount: [ 2, 5 ]
         },
         {
             blockId: "minecraft:nether_gold_ore",
@@ -190,6 +203,7 @@ export const config = {
             minDropCount: 2,
             maxDropCount: 6,
             otherBlockIds: [],
+            spawnXpCount: [ 0, 1 ]
         },
         {
             blockId: "minecraft:ancient_debris",
