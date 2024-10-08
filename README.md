@@ -1,4 +1,8 @@
 # 一括破壊
+![GitHub Release](https://img.shields.io/github/v/release/Raoootokun/IkkatuHakai)
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/Raoootokun/IkkatuHakai/total)
+
+
 
 斧で原木、ツルハシで鉱石を一括破壊できます。  
 対応バージョン: v1.21.30~
