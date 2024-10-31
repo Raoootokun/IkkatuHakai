@@ -1,6 +1,5 @@
 # 一括破壊
 ![GitHub Release](https://img.shields.io/github/v/release/Raoootokun/IkkatuHakai)
-![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/Raoootokun/IkkatuHakai/total)
 
 
 
