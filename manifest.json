@@ -1,11 +1,11 @@
 {
   "format_version": 2,
   "header": {
-    "name": "一括破壊 v1.1.0",
-    "description": "対応バージョン: v1.21.30~",
-    "version": [ 1, 1, 0 ],
+    "name": "一括破壊 [ver1.2.0]",
+    "description": "対応バージョン: v1.21.50",
+    "version": [ 1, 2, 0 ],
     "uuid": "e6d1123d-e1d0-0bf0-130b-5c07b7700e19",
-    "min_engine_version": [ 1, 21, 0 ]
+    "min_engine_version": [ 1, 21, 50 ]
   },
   "modules": [
     {
