@@ -23,6 +23,7 @@ export const config = {
         "minecraft:cherry_log",
         "minecraft:crimson_stem",
         "minecraft:warped_stem",
+        "minecraft:pale_oak_log",
         "minecraft:stripped_oak_log",
         "minecraft:stripped_spruce_log",
         "minecraft:stripped_birch_log",
@@ -33,6 +34,7 @@ export const config = {
         "minecraft:stripped_cherry_log",
         "minecraft:stripped_crimson_stem",
         "minecraft:stripped_warped_stem",
+        "minecraft:stripped_pale_oak_log",
     ],
 
     //マインオールが発動するツールのID
