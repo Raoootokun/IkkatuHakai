@@ -8,6 +8,7 @@ export const config = {
         "minecraft:golden_axe",
         "minecraft:diamond_axe",
         "minecraft:netherite_axe",
+        "minecraft:copper_axe",
     ],
 
     //カットオールで破壊可能ブロック
@@ -45,6 +46,7 @@ export const config = {
         "minecraft:golden_pickaxe",
         "minecraft:diamond_pickaxe",
         "minecraft:netherite_pickaxe",
+        "minecraft:copper_pickaxe",
     ],
 
     //マインオールで破壊可能ブロックデータ
